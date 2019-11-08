@@ -1,0 +1,30 @@
+{
+  "name": "mrpGroupLogging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "watch-node": "nodemon dist/server.js",
+    "watch-ts": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mssql": "^4.3.1",
+    "nodemon": "^1.18.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/safer-buffer": "^2.1.0",
+    "config": "^3.2.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "mssql": "^6.0.0",
+    "safe-buffer": "^5.2.0"
+  }
+}
